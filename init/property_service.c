@@ -122,6 +122,7 @@ struct {
 } control_perms[] = {
     { "dumpstate",AID_SHELL, AID_LOG },
     { "ril-daemon",AID_RADIO, AID_RADIO },
+    { "pppd_gprs", AID_RADIO, AID_RADIO },
 #ifdef CONTROL_PERMS_APPEND
 CONTROL_PERMS_APPEND
 #endif
